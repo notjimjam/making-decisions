@@ -158,10 +158,12 @@ while (score < 7) {
 //CODE HERE
 let changeMyMind = true;
 
-if(changeMyMind === true) {
-  changeMyMind = false;
-} else if (changeMyMind === false) {
-  changeMyMind = true
+// if(changeMyMind === true) {
+//   changeMyMind = false
+// } 
+// };
+if(changeMyMind) {
+  changeMyMind=!changeMyMind
 };
 
 ////////// PROBLEM 10 //////////
@@ -169,8 +171,8 @@ if(changeMyMind === true) {
 // and then console.log it's new status. It should log true. Hint: use the not operator.
 
 //CODE HERE
-if(changeMyMind) {
-  console.log(changeMyMind)
+changeMyMind=!changeMyMind; 
+  {console.log(changeMyMind);
 };
 
 
@@ -186,7 +188,7 @@ let z = 5
 
 //CODE HERE
 while(z > 0) {
-  console.log (z);
-  z --
-
-}
+  for (i = z; i > 0; i--) {
+    console.log(i)
+  } z--
+};
